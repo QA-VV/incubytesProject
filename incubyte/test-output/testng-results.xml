@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-07T00:32:10 IST" name="Default suite" finished-at="2024-08-07T00:33:01 IST" duration-ms="50896">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.incubyte.TestRunner.CucumberTestRunner@76b1e9b8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-07T00:32:10 IST" name="Default test" finished-at="2024-08-07T00:33:01 IST" duration-ms="50896">
+      <class name="bdd.incubyte.TestRunner.CucumberTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:bdd.incubyte.TestRunner.CucumberTestRunner@76b1e9b8]" started-at="2024-08-07T00:32:10 IST" name="setUpClass" finished-at="2024-08-07T00:32:10 IST" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47248a48]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.incubyte.TestRunner.CucumberTestRunner@76b1e9b8]" started-at="2024-08-07T00:32:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-07T00:32:30 IST" duration-ms="19260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check user will not login with invalid credential "vikasverma2291@outlook.com" and "incorrectpassword""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Signup and Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.incubyte.TestRunner.CucumberTestRunner@76b1e9b8]" started-at="2024-08-07T00:32:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-07T00:32:49 IST" duration-ms="19349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check user will not login with invalid credential "v123ikasverma2291@outlook.com" and "Password@123""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Signup and Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:bdd.incubyte.TestRunner.CucumberTestRunner@76b1e9b8]" started-at="2024-08-07T00:32:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-07T00:33:01 IST" duration-ms="11866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check User login successfully with valid "vikasverma2291@outlook.com" and "Password@123""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Signup and Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:bdd.incubyte.TestRunner.CucumberTestRunner@76b1e9b8]" started-at="2024-08-07T00:33:01 IST" name="tearDownClass" finished-at="2024-08-07T00:33:01 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- bdd.incubyte.TestRunner.CucumberTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
