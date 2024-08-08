@@ -7,7 +7,16 @@ import org.testng.Assert;
 
 import bdd.incubyte.BaseSetup;
 import bdd.incubyte.ConfigManager;
+
 import bdd.incubyte.Pages.AdidasPage;
+import bdd.incubyte.Pages.LoginPage;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+
+
 import bdd.incubyte.Pages.LoginPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -18,7 +27,6 @@ import io.cucumber.java.en.When;
 public class LoginSteps {
 	public ConfigManager config = new ConfigManager();
 	public LoginPage loginpage;
-	public AdidasPage ad;
 	
 	
 	WebDriver driver;
@@ -69,23 +77,7 @@ public class LoginSteps {
 			//Assert.fail();
 		}
 	}
-	
-	
-	@Given("OPen the WebSite")
-	public void o_pen_the_web_site() {
-	    ad = new AdidasPage();
-	    ad.clickShoes();
-	}
-	@When("Get the Element")
-	public void get_the_element() {
-	    ad.clickProducts();
-	}
-	@Then("CLick the element")
-	public void c_lick_the_element() {
-	    
-	}
-	
-	
+
 
 
 }

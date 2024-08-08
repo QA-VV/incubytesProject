@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 	glue = {"bdd.incubyte"},
 	dryRun = false,
 	plugin = {"pretty","html:target/htmlreport.html"},
-	tags = "@Login"	
+	tags = "@Login"
 	
 	)
 public class CucumberTestRunner extends AbstractTestNGCucumberTests {

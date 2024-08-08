@@ -58,6 +58,7 @@ Feature: Signup and Login
 		|username|password|
 		|vikasverma2291@outlook.com|Password@123|
 		
+
 		
 		@Adidas
 		Scenario: Get All Element and Print
@@ -66,5 +67,6 @@ Feature: Signup and Login
 		Then CLick the element
 
 		
+
     
 
